@@ -1,10 +1,10 @@
 """
-Created by Roman Sekandari. but honestly who gives a fuck.
+Created by Roman Sekandari. but honestly who cares
 """
 """
 The following program is made for OCD people.
 It creates a folder for the course you want, and extra folders for the books, exercises, lectures etc.
-It's really simple but it takes time to do it manually and fuck doing that.
+It's really simple but it takes time to do it manually and who doing that.
 """
 import os
 
@@ -35,4 +35,4 @@ for i in range(1, totalWeeks+1):
     os.mkdir(os.path.join(path, courseName, courseName + '_Lectures', 'Week' + str(i) + '_Lectures', '0' + str(i) + '_Slides'))
     os.mkdir(os.path.join(path, courseName, courseName + '_Exercises', 'Week'+str(i)+'_Exercises'))
 
-print('xD Cringe, your course folder created. You can now start organizing your course!')
+print('xD, your course folder created. You can now start organizing your course!')
